@@ -28,9 +28,11 @@ ul {
     margin-left: auto;
     list-style-type: none;
     display: flex;
+
 }
-li {
-    margin: 8px
+a {
+    margin: 8px;
+    text-decoration: none;
 }
 .dark-body img {
     height: 200px;
