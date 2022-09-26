@@ -16,9 +16,41 @@ ul {
     display: flex;
 }
 li {
-    margin: 16px
+    margin: 8px
 }
 img {
     height: 200px;
-    width: 200px;
+    width: auto;
+}
+
+.dark-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+
+}
+.intro {
+    padding: 24px;
+}
+.name {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    width:100px;
+
 }
